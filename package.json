@@ -1,0 +1,40 @@
+{
+  "name": "typesafe-urls-ngrx-router",
+  "version": "0.0.1",
+  "description": "@ngrx/router extensions for the typesafe-urls package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -r build",
+    "build": "tsc",
+    "package": "mkdir -p build/npm; cp -R ./package.json ./README.md ./LICENSE ./build/npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angryzor/typesafe-urls-ngrx-router.git"
+  },
+  "keywords": [
+    "typescript",
+    "router",
+    "url",
+    "typesafe",
+    "type",
+    "safe",
+    "uri",
+    "links",
+    "urls"
+  ],
+  "author": "Ruben Tytgat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angryzor/typesafe-urls-ngrx-router/issues"
+  },
+  "homepage": "https://github.com/angryzor/typesafe-urls-ngrx-router#readme",
+  "peerDependencies": {
+    "typesafe-urls": "^0.0",
+    "@ngrx/router": "^1.0.0-beta.1"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
